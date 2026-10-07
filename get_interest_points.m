@@ -39,7 +39,7 @@ function [x, y, confidence, scale, orientation] = get_interest_points(image, fea
 alpha = 0.05;
 rel_threshold = 0.005;
 nms_size = 5;
-max_points = 20000;
+max_points = 2000;
 sigma_d = 1;
 sigma_i = 2;
 
